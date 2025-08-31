@@ -1,0 +1,49 @@
+# Source files
+src/
+test/
+examples/
+.github/
+coverage/
+
+# Config files
+.eslintrc.js
+.eslintignore
+.prettierrc
+.prettierignore
+jest.config.js
+tsconfig.json
+tsconfig.*.json
+
+# CI files
+.travis.yml
+.gitlab-ci.yml
+appveyor.yml
+
+# Development files
+*.tgz
+*.log
+.vscode/
+.idea/
+.DS_Store
+
+# Other files
+CONTRIBUTING.md
+PRICING.md
+.env*
+*.md
+!README.md
+!LICENSE
+!CHANGELOG.md
+
+# Tests and examples
+__tests__/
+__mocks__/
+*.spec.*
+*.test.*
+playwright-report/
+test-results/
+
+# Temporarily generated files
+temp/
+tmp/
+.nyc_output
